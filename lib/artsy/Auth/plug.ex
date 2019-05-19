@@ -31,7 +31,7 @@ defmodule Artsy.Auth.Plug do
         # not logged in, redirect to login
         conn
         |> put_resp_header("location", "/auth")
-        |> send_resp(301, "You are being redirected.")
+        |> send_resp(302, "You are being redirected.")
         |> halt()
     end
   end
