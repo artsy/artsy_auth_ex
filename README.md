@@ -1,4 +1,5 @@
 # ArtsyAuthEx
+[![Build Status](https://travis-ci.org/artsy/artsy_auth_ex.svg?branch=master)](https://travis-ci.org/artsy/artsy_auth_ex)
 [![Hex version](https://img.shields.io/hexpm/v/artsy_auth_ex.svg "Hex version")](https://hex.pm/packages/artsy_auth_ex)
 [![Hex downloads](https://img.shields.io/hexpm/dt/artsy_auth_ex.svg "Hex downloads")](https://hex.pm/packages/artsy_auth_ex)
 
