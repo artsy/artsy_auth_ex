@@ -103,7 +103,5 @@ config :artsy_auth_ex,
   allowed_roles: ["admin"] # list of roles allowed to access your app
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/artsy_auth_ex](https://hexdocs.pm/artsy_auth_ex).
+Docs can be found at [https://hexdocs.pm/artsy_auth_ex](https://hexdocs.pm/artsy_auth_ex).
 
