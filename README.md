@@ -13,7 +13,7 @@ The package can be installed by adding `artsy_auth_ex` to your list of dependenc
 ```elixir
 def deps do
   [
-    {:artsy_auth_ex, "~> 0.1.0"}
+    {:artsy_auth_ex, "~> 0.1"}
   ]
 end
 ```
