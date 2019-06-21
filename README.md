@@ -103,5 +103,13 @@ config :artsy_auth_ex,
   allowed_roles: ["admin"] # list of roles allowed to access your app
 ```
 
+We also use [Joken]() to decode the JWT created as part of authentication to fetch roles and allow access. You need to add following to your `config.ex`
+
+```elixir
+# config/config.ex
+config :joken,
+  default_signer: System.get_env("ARTSY_INTERNAL_SECRET")
+```
+
 Docs can be found at [https://hexdocs.pm/artsy_auth_ex](https://hexdocs.pm/artsy_auth_ex).
 
